@@ -1,16 +1,25 @@
 using System.Runtime.InteropServices;
 
 [StructLayout(LayoutKind.Sequential, Pack = 2)]
-public struct Header
+struct Header
 {
-    public short type;
+    public MessageType type;
     public int length;
+    
 }
 
+[StructLayout(LayoutKind.Sequential, Pack = 2)]
 struct Packet
 {
     public Header header;
     public byte[] body;
+    
 }
+
+enum MessageType : short
+{
+    ERROR,
+    MESSAGE,
+};
 
 
