@@ -8,14 +8,6 @@ struct Header
     
 }
 
-[StructLayout(LayoutKind.Sequential, Pack = 2)]
-struct Packet
-{
-    public Header header;
-    public byte[] body;
-    
-}
-
 enum MessageType : short
 {
     ERROR,
