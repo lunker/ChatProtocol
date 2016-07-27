@@ -1,7 +1,9 @@
-struct Header
+
+[StructLayout(LayoutKind.Sequential, Pack = 2)]
+public struct Header
 {
-    short type;
-    int length;
+    public short type;
+    public int length;
 }
 
 struct Packet
@@ -9,3 +11,5 @@ struct Packet
     public Header header;
     public byte[] body;
 }
+
+
