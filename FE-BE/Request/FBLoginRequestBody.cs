@@ -1,4 +1,4 @@
-struct LoginRequestBody{
+struct FBLoginRequestBody{
   string id;
   string password;
 }
