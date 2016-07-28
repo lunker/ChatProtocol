@@ -1,4 +1,4 @@
-struct xxxRequestBody{
+struct FBRoomRequestBody{
   string id;
   int roomNo;
 }
