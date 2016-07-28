@@ -6,7 +6,8 @@ static class MessageType
 
             REQUEST_SIGNUP=100,
             REQEUST_CHECK_SIGNEDUP=110,
-
+            REQUEST_LOGIN=120,
+            
             CHAT_MSG=200,
 
             REQUEST_CREATE_ROOM=310,
