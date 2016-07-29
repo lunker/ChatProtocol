@@ -3,8 +3,8 @@ using System.Runtime.InteropServices;
 [StructLayout(LayoutKind.Sequential, Pack = 2)]
 struct FBHeader
 {
-    public MessageType_Front_Back type;
-    public MessageState state;
+    public FBMessageType type;
+    public FBMessageState state;
     public int length;
     public int sessionId;
 }
