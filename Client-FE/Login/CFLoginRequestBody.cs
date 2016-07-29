@@ -1,4 +1,6 @@
+using System.Runtime.InteropServices;
+
 struct LoginRequestBody{
-  string id;
-  string password;
+    [MarshalAs(UnmanagedType.ByValArray, SizeConst = 10)] char[] id;
+    [MarshalAs(UnmanagedType.ByValArray, SizeConst = 10)] char[] password;
 }
