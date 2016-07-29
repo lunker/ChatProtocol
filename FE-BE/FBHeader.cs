@@ -1,12 +1,15 @@
+using System.Runtime.InteropServices;
+
 [StructLayout(LayoutKind.Sequential, Pack = 2)]
-struct CFHeader
+struct FBHeader
 {
-    public MessageType_Cient_Front type;
+    public MessageType_Front_Back type;
     public MessageState state;
     public int length;
+    public int sessionId;
 }
 
-enum CFMessageType : short
+enum FBMessageType : short
 {
     Id_Dup = 110,
     Signup = 120,
@@ -18,19 +21,12 @@ enum CFMessageType : short
     Room_Join = 330,
     Room_List = 340,
 
-    Chat_MSG_From_Client = 410,
-    Chat_MSG_Broadcast = 420,
+    Chat_Count = 410
 };
 
-enum MessageState : short
+enum FBMessageState : short
 {
     REQUEST = 100,
     SUCCESS = 200,
     FAIL = 400
-}
-
-struct CFRoomRequestBody
-{
-  char id[14]; 
-  int roomNo; 
 }

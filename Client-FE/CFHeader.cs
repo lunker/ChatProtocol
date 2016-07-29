@@ -1,3 +1,5 @@
+using System.Runtime.InteropServices;
+
 [StructLayout(LayoutKind.Sequential, Pack = 2)]
 struct CFHeader
 {
@@ -22,15 +24,10 @@ enum CFMessageType : short
     Chat_MSG_Broadcast = 420,
 };
 
-enum MessageState : short
+enum CFMessageState : short
 {
     REQUEST = 100,
     SUCCESS = 200,
     FAIL = 400
 }
 
-struct CFRoomRequestBody
-{
-  char id[14]; 
-  int roomNo; 
-}
