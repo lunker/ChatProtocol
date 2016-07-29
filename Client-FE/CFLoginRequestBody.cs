@@ -1,6 +1,6 @@
 using System.Runtime.InteropServices;
 
-struct LoginRequestBody{
+struct SignRequestBody{
     [MarshalAs(UnmanagedType.ByValArray, SizeConst = 10)] char[] id;
     [MarshalAs(UnmanagedType.ByValArray, SizeConst = 10)] char[] password;
 }
