@@ -3,8 +3,8 @@ using System.Runtime.InteropServices;
 [StructLayout(LayoutKind.Sequential, Pack = 2)]
 struct CFHeader
 {
-    public MessageType_Cient_Front type;
-    public MessageState state;
+    public CFMessageType type;
+    public CFMessageState state;
     public int length;
 }
 
