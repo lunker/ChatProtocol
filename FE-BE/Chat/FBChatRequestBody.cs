@@ -1,3 +1,3 @@
-struct FBChatRequestBody.cs{
+struct FBChatRequestBody{
   string id;
 }
