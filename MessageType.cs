@@ -3,20 +3,21 @@ static class MessageType
         public enum Types : short
         {
 
-            REQUEST_USERID_CHECK=100,
-            REQUEST_SIGNUP =110,
+            RequestUseridCheck=100,
+            
+            RequestSignup =110,
 
-            REQUEST_LOGIN=200,
+            RequestLogin=200,
 
-            REQUEST_LIST_ROOM = 300,
-            REQUEST_JOIN_ROOM = 310,
-            REQUEST_LEAVE_ROOM = 320,
-            REQUEST_CREATE_ROOM = 330,
+            RequestListRoom = 300,
+            RequestJoinRoom = 310,
+            RequestLeaveRoom = 320,
+            RequestCreateRoom = 330,
 
-            REQUEST_CHATTING = 400,
+            RequestChatting = 400,
 
-            STATUS_REQUEST = 100,
-            STATUS_SUCCESS =200,
-            STATUS_FAIL=400,
+            StatusRequest = 100,
+            StatusSuccess =200,
+            StatusFail=400,
         };
     }
