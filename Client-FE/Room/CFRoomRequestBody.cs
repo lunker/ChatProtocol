@@ -1,5 +1,6 @@
-struct CFRoomRequestBody
+ using System.Runtime.InteropServices;
+ struct CFRoomRequestBody
 {
-  string id; 
-  int roomNo; 
+    [MarshalAs(UnmanagedType.ByValArray, SizeConst = 10)] char[] id;
+    int roomNo; 
 }
