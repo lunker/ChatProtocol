@@ -1,4 +1,4 @@
 struct FBLoginResponseBody{
-// none
-// using Header.Status
+  [MarshalAs(UnmanagedType.LPArray, SizeConst = 12)]
+  public char[] id;
 }
