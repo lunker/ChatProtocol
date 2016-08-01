@@ -1,4 +1,5 @@
 struct FBRoomRequestBody{
-  string id;
-  int roomNo;
+    [MarshalAs(UnmanagedType.ByValArray, SizeConst = 12)]
+    char[] id;
+    int roomNo;
 }
