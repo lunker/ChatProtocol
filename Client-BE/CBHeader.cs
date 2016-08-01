@@ -28,7 +28,7 @@ public enum CBMessageType : short
 {
 
     Total_Room_Count = 110,
-    Chat_Status = 210,
+    FE_User_Status = 210,
     Chat_Ranking = 310
     
 };
