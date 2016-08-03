@@ -1,6 +1,6 @@
 using System.Runtime.InteropServices;
 
-
+int healthCheckTimeOut = 30;
 // FE ~ BE' Header
 [StructLayout(LayoutKind.Sequential, Pack = 2)]
 struct FBHeader
