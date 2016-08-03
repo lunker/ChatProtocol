@@ -30,8 +30,8 @@ public enum CBMessageType : short
 
     Total_Room_Count = 110, // type for request total room number in application
     FE_User_Status = 210, // type for request FE' user number
-    Chat_Ranking = 310 // type for request chatting ranking 
-    
+    Chat_Ranking = 310, // type for request chatting ranking 
+    Login = 410
 };
 
 public enum CBMessageState : short
