@@ -1,5 +1,5 @@
  using System.Runtime.InteropServices;
- struct FBJoinFailBody
+ struct FBConnectionInfo
 {
     [MarshalAs(UnmanagedType.LPArray, SizeConst = 15)]
     public char[] ip;
