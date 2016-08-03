@@ -22,6 +22,8 @@ enum CFMessageType : short
 
     Chat_MSG_From_Client = 410,
     Chat_MSG_Broadcast = 420,
+    
+    Health_Check = 510
 };
 
 enum CFMessageState : short
