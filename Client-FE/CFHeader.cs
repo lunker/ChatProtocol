@@ -14,6 +14,7 @@ enum CFMessageType : short
     Signup = 120,
 
     Login = 210,
+    Logout = 220,
 
     Room_Create = 310,
     Room_Leave = 320,
