@@ -3,5 +3,5 @@
 {
     [MarshalAs(UnmanagedType.ByValArray, SizeConst = 15)]
     public char[] ip;
-    public int port; //lenght of next body 
+    public int port; //length of next body 
 }
