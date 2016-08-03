@@ -1,7 +1,0 @@
- using System.Runtime.InteropServices;
- struct CFChatRequestBody
-{
-    [MarshalAs(UnmanagedType.LPArray, SizeConst = 12)]
-    public char[] id;
-    public int msdLen; //lenght of next body 
-}
