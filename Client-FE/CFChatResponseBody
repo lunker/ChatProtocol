@@ -4,5 +4,5 @@
      [MarshalAs(UnmanagedType.LPArray, SizeConst = 12)]
      public char[] id;
      public DateTime date;
-     public int msdLen; //lenght of next body 
+     public int msgLen; //lenght of next body 
  }
