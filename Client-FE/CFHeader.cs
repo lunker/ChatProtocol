@@ -1,5 +1,7 @@
 using System.Runtime.InteropServices;
 
+int healthCheckTimeOut = 30;
+
 [StructLayout(LayoutKind.Sequential, Pack = 2)]
 struct CFHeader
 {
