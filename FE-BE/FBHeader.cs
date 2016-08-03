@@ -24,7 +24,12 @@ enum FBMessageType : short
     Room_Join = 330,
     Room_List = 340,
 
-    Chat_Count = 410
+    Chat_Count = 410,
+    
+    Health_Check = 510,
+    
+    Connection_Info = 610
+    
 };
 
 // message state const
