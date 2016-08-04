@@ -32,6 +32,7 @@ public enum CBMessageType : short
     FE_User_Status = 210, // type for request FE' user number
     Chat_Ranking = 310, // type for request chatting ranking 
     Login = 410,
+    Logout = 420,
     Health_Check = 510
 };
 
