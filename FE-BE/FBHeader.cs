@@ -24,6 +24,7 @@ enum FBMessageType : short
     Room_Leave = 320,
     Room_Join = 330,
     Room_List = 340,
+    Room_Delete = 350,
 
     Chat_Count = 410,
     
