@@ -19,6 +19,9 @@ enum FBMessageType : short
 
     Login = 210,
     Logout = 220,
+    
+    ChangePassword = 230,
+    RemoveAccound = 240,
 
     Room_Create = 310,
     Room_Leave = 320,
