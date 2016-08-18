@@ -10,6 +10,12 @@ struct CFHeader
     public int length;
 }
 
+enum Protocol
+    {
+        Tcp = 0,
+        Web
+    }
+
 enum CFMessageType : short
 {
     Id_Dup = 110,
