@@ -20,6 +20,8 @@ enum CFMessageType : short
 {
     Id_Dup = 110,
     Signup = 120,
+     Delete = 130,
+    Change_Password = 140,
 
     Login = 210,
     Logout = 220,
