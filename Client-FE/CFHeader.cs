@@ -33,6 +33,7 @@ enum CFMessageType : short
     Room_Leave = 320,
     Room_Join = 330,
     Room_List = 340,
+    ConnectionPass =350,
 
     Chat_MSG_From_Client = 410,
     Chat_MSG_Broadcast = 420,
