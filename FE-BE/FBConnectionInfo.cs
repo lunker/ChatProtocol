@@ -4,5 +4,5 @@
     [MarshalAs(UnmanagedType.ByValArray, SizeConst = 15)]
     public char[] ip;
     public int port;
-    Protocol protocol;  
+    public Protocol protocol;  
 }
