@@ -29,8 +29,6 @@ namespace Agent
         LogIn = 410,
         LogOut = 420,
 
-        Health_Check = 510
-
     };
 
     public enum BEMessageState : short
