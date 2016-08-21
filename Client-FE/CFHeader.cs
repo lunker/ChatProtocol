@@ -20,17 +20,17 @@ enum CFMessageType : short
 {
     Id_Dup = 110,
     Signup = 120,
+    ChangePassword = 130,
+    RemoveAccound = 140,
 
     Login = 210,
     Logout = 220,
-
-    ChangePassword = 230,
-    RemoveAccound = 240,
     
     Room_Create = 310,
     Room_Leave = 320,
     Room_Join = 330,
     Room_List = 340,
+    ConnectionPass =350,
 
     Chat_MSG_From_Client = 410,
     Chat_MSG_Broadcast = 420,
