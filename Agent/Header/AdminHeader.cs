@@ -19,9 +19,12 @@ namespace Agent
 
     enum AdminMessageType : short
     {
-        DelegateCIA,
-        MonitoringInfo,
-        FEServerManaging
+        Total_Room_Count = 110, // type for request total room number in application
+        User_Status = 210, // type for request FE' user number
+        Chat_Ranking = 310, // type for request chatting ranking 
+
+        LogIn = 410,
+        LogOut = 420,
     }
     
     enum AdminMessageState : short
