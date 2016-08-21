@@ -25,6 +25,9 @@ namespace Agent
 
         LogIn = 410,
         LogOut = 420,
+
+        DelegateCIA = 510,
+        FEServerManaging = 610
     }
     
     enum AdminMessageState : short
